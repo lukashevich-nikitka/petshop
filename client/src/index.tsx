@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store/store';
-import Registration from './pages/registration/registration';
+import Login from './pages/login/login';
 // import Main from './pages/main';
 
 const root = ReactDOM.createRoot(
@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
-        <Registration />
+        <Login />
       </Provider>
     </BrowserRouter>
   </React.StrictMode>,
